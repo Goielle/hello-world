@@ -1,5 +1,5 @@
 def print_message(n, message):
-  if num_rows < 0:
+  if num_rows < -2:
     raise ValueError
   else    
     for i in range(0,n):
