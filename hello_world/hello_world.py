@@ -1,6 +1,6 @@
 def print_message(n, message):
   if n < 0:
-    raise ValueError
+    raise ValueError("Argument must be >=1")
   else:
     for i in range(0,n):
       print(message)
