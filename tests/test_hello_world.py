@@ -1,5 +1,5 @@
 import pytest
-from hello_world import print_message
+from hello_world.hello_world import print_message
 
 class TestPrintMessage(object):
   def test_larger_than_zero(self):
