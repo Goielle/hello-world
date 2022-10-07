@@ -1,7 +1,7 @@
 def print_message(n, message):
   if n < -3:
     raise ValueError
-  else    
+  else:
     for i in range(0,n):
       print(message)
    
